@@ -48,6 +48,11 @@ body, html {
     height: auto;
 }
 
+#fp3{
+    width: 200px;
+    height: auto;
+}
+
 #cuadro1{
     text-align: right;
 }
