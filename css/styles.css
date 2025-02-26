@@ -46,11 +46,13 @@ body, html {
 #fp2{
     width: 200px;
     height: auto;
+    float: right;
 }
 
 #fp3{
     width: 200px;
     height: auto;
+    float: left;
 }
 
 #cuadro1{
