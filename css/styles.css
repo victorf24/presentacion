@@ -1,10 +1,8 @@
-/* Estilos generales */
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
     font-family: Arial, sans-serif;
-    background: rgb(255,0,0);
     background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,162,0,1) 50%, rgba(254,242,0,1) 100%);
 }
 
@@ -16,14 +14,14 @@ body, html {
 }
 
 .cuadro-centro {
-    background-color: #ffffff; 
+    background-color: #ffffff;
     padding: 4%;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    max-width: 500px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
     width: 100%;
     text-align: center;
-    margin-top: -10%
+    margin-top: -10%;
 }
 
 .cuadro-centro h1 {
@@ -36,67 +34,104 @@ body, html {
     line-height: 1.6;
 }
 
-#fp1{
-    width: 150px; 
-    height: auto; 
+#fp1 {
+    width: 150px;
+    height: auto;
     float: left;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-#fp2{
+#fp2 {
     width: 200px;
     height: auto;
     float: right;
 }
 
-#fp3{
+#fp3 {
     width: 200px;
     height: auto;
     float: left;
 }
 
-#fp4{
+#fp4 {
     width: 200px;
     height: auto;
 }
 
-
-#cuadro1{
+#cuadro1 {
     text-align: right;
 }
 
-#cuadro_trabajo{
+#cuadro_trabajo {
     text-align: left;
-
 }
 
-#fp5{
+#fp5 {
     margin-left: 45%;
 }
 
-#fp6{
+#fp6 {
     float: left;
 }
 
-#fp7{
+#fp7 {
     float: right;
 }
 
-#fp8{
+#fp8 {
     float: left;
     width: 40%;
     height: auto;
 }
 
-#fp9{
+#fp9 {
     float: right;
     width: 40%;
     height: auto;
 }
 
-#cont_hobbies{
+#cont_hobbies {
     text-align: left;
 }
-  
 
+.banner {
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.banner ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.banner ul li {
+    margin: 0 15px;
+}
+
+.banner ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.banner ul li a:hover {
+    color: #ffa200;
+}
+
+body {
+    padding-top: 60px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
