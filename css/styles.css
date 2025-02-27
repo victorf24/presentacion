@@ -11,18 +11,18 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70%;
-    margin-top: 80px;
+    margin-top: 15%;
 }
 
 .cuadro-centro {
     background-color: #ffffff; 
-    padding: 20px;
+    padding: 4%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     max-width: 500px; 
     width: 100%;
     text-align: center;
+    margin-top: -10%
 }
 
 .cuadro-centro h1 {
@@ -56,8 +56,8 @@ body, html {
 }
 
 #fp4{
-    width: 100px;
-    height: 100;
+    width: 200px;
+    height: auto;
 }
 
 
@@ -67,5 +67,19 @@ body, html {
 
 #cuadro_trabajo{
     text-align: left;
+
+}
+
+#fp5{
+    margin-left: 45%;
+}
+
+#fp6{
+    float: left;
+}
+
+#fp7{
+    float: right;
 }
   
+
