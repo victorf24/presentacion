@@ -4,7 +4,8 @@ body, html {
     padding: 0;
     height: 100%;
     font-family: Arial, sans-serif;
-    background-color: #ff5858;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,162,0,1) 50%, rgba(254,242,0,1) 100%);
 }
 
 .contenedor {
@@ -80,6 +81,22 @@ body, html {
 
 #fp7{
     float: right;
+}
+
+#fp8{
+    float: left;
+    width: 40%;
+    height: auto;
+}
+
+#fp9{
+    float: right;
+    width: 40%;
+    height: auto;
+}
+
+#cont_hobbies{
+    text-align: left;
 }
   
 
